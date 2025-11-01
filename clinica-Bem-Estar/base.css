@@ -1,0 +1,83 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    padding: 10px 20px 0px;
+    font-size: 16px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: black;
+}
+
+.header {
+    background-color: rgb(190, 206, 135);
+    min-height: 150px;
+    align-items: center;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.content h2 {
+    text-align: center;
+}
+
+.content form {
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.content form input, .content form textarea {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: bisque;
+}
+
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+    text-align: center;
+}
